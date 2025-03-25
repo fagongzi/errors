@@ -3,10 +3,8 @@ module github.com/cockroachdb/errors
 go 1.19
 
 require (
-	github.com/cockroachdb/datadriven v1.0.2
 	github.com/cockroachdb/logtags v0.0.0-20230118201751-21c54148d20b
 	github.com/cockroachdb/redact v1.1.5
-	github.com/getsentry/sentry-go v0.27.0
 	github.com/gogo/googleapis v1.4.1 // gogoproto 1.2-compatible, for CRDB
 	github.com/gogo/protobuf v1.3.2
 	github.com/gogo/status v1.1.0
